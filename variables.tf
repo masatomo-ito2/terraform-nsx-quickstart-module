@@ -51,3 +51,10 @@ variable private_subnets_snat_enabled {
   type        = bool
   default     = true
 }
+
+# masa  added
+
+variable transport_zone_path {}
+variable edge_cluster_path {}
+variable tier0_path {}
+

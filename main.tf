@@ -7,8 +7,8 @@ resource random_pet "this" {
 }
 
 module nsx_data {
-  source      = "app.terraform.io/grantorchard/remote-state/nsx"
-  version     = "0.0.1"
+  source  = "app.terraform.io/masa_org/remote-state/nsx"
+  version = "0.0.1"
   environment = lower(var.environment)
 }
 
